@@ -1,0 +1,9 @@
+@import "breakpoints.css";
+@import "color.css";
+@import "gap.css";
+@import "size.css";
+@import "space.css";
+
+* {
+    box-sizing: border-box;
+}

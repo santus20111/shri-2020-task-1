@@ -1,0 +1,24 @@
+.informer__action {
+    display: flex;
+}
+
+.informer__action__distribute_default {
+
+}
+
+.informer__action_distribute_between {
+    justify-content: space-between;
+}
+
+.informer__action_distribute_center {
+    justify-content: center;
+}
+
+.informer__action_space-a_xl {
+    padding: var(--xl_space);
+}
+
+.informer__action_space-a_xxl {
+    padding: var(--xxl_space);
+}
+

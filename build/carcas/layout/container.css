@@ -1,0 +1,32 @@
+@import "../../variable/sizes.css";
+
+.layout__container_align_center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.layout__container_size_s {
+    max-width: var(--s_container_size);
+}
+
+.layout__container_size_m {
+    max-width: var(--m_container_size);
+}
+
+.layout__container_space-v_xxxxl {
+    padding-top: var(--xxxxl_space);
+    padding-bottom: var(--xxxxl_space);
+}
+
+.layout__container_space-v_xxxxxl {
+    padding-top: var(--xxxxxl_space);
+    padding-bottom: var(--xxxxxl_space);
+}
+
+.layout__container_indent-b_xxl {
+    margin-bottom: var(--xxl_space);
+}
+
+.layout__container_indent-b_xxxxl {
+    margin-bottom: var(--xxxxl_space);
+}

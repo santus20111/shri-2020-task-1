@@ -15,6 +15,7 @@ app.get('/index|product', (req, res) => {
     const jsonPath = path.resolve(__dirname, 'pages', `${page}.json`);
     const bemjson = JSON.parse(fs.readFileSync(jsonPath, {encoding: 'utf-8'}));
 
+    console.log(bemjson)
     const contentHTML = templates.apply(bemjson);
 
     const pageHTML = `

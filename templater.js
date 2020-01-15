@@ -2277,7 +2277,7 @@ exports.isUnquotedAttr = function(str) {
 
 },{}],11:[function(require,module,exports){
 if (typeof Object.create === 'function') {
-  // implementation from standard node.js 'util' module
+  // implementation from standard node.scripts 'util' module
   module.exports = function inherits(ctor, superCtor) {
     ctor.super_ = superCtor
     ctor.prototype = Object.create(superCtor.prototype, {

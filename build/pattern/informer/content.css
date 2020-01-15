@@ -1,0 +1,25 @@
+@import "../../variable/sizes.css";
+
+.informer__content {
+    display: flex;
+}
+
+.informer__content_distribute_default {
+
+}
+
+.informer__content_distribute_between {
+    justify-content: space-between;
+}
+
+.informer__content_distribute_center {
+    justify-content: center;
+}
+
+.informer__content_space-a_xl {
+    padding: var(--xl_space);
+}
+
+.informer__content_space-a_xxl {
+    padding: var(--xxl_space);
+}

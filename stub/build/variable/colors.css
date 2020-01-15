@@ -1,0 +1,33 @@
+:root {
+    --default-background-color: #FFFFFF;
+    --default-accent-background-color: #ffcc00;
+    --default-border-color: #000000;
+    --default-text-color: #000000;
+    --default-secondary-text-color: rgba(0, 0, 0, 0.6);
+    --default-additional-text-color: rgba(0, 0, 0, 0.3);
+    --default-link-color: #0077ff;
+
+    --brand-background-color: #0077ff;
+    --brand-accent-background-color: #FFFFFF;
+    --brand-border-color: #FFFFFF;
+    --brand-text-color: #FFFFFF;
+    --brand-secondary-text-color: rgba(255, 255, 255, 0.6);
+    --brand-additional-text-color: rgba(255, 255, 255, 0.3);
+    --brand-link-color: #FFFFFF;
+
+    --inverse-background-color: #000000;
+    --inverse-accent-background-color: #FFFFFF;
+    --inverse-border-color: #FFFFFF;
+    --inverse-text-color: #FFFFFF;
+    --inverse-secondary-text-color: rgba(255, 255, 255, 0.6);
+    --inverse-additional-text-color: rgba(255, 255, 255, 0.3);
+    --inverse-link-color: #0077ff;
+
+    --warning-background-color: #ff3333;
+    --warning-accent-background-color: #FFFFFF;
+    --warning-border-color: #ff3333;
+    --warning-text-color: #FFFFFF;
+    --warning-secondary-text-color: rgba(255, 255, 255, 0.6);
+    --warning-additional-text-color: rgba(255, 255, 255, 0.3);
+    --warning-link-color: #FFF;
+}

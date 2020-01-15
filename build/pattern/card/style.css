@@ -1,0 +1,11 @@
+@import "content.css";
+@import "footer.css";
+
+.card_border_all {
+    border-style: solid;
+    border-color: var(--theme-border-color);
+}
+
+.card_view_default {
+    background-color: var(--theme-background-color);
+}

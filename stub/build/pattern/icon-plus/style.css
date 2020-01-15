@@ -1,0 +1,9 @@
+@import "icon.css";
+
+.icon-plus {
+    display: flex;
+}
+
+.icon-plus_vertical-align_center .icon-plus__icon{
+    align-items: center;
+}
