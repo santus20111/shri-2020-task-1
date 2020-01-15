@@ -1,5 +1,0 @@
-@import "../variable/sizes.css";
-
-.theme_gap_small {
-    margin: var(--gap);
-}

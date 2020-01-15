@@ -1,7 +1,0 @@
-.payment__content {
-    flex-direction: column;
-}
-
-.payment__content .form__control {
-    flex-grow: 1;
-}

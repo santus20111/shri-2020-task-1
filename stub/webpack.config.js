@@ -1,19 +1,27 @@
+const ExtractTextPlugin = require("extract-text-webpack-plugin");
+
 module.exports = {
     context: __dirname,
     devtool: "source-map",
     entry: "./scripts/script.js",
     output: {
-        path: __dirname + "/build",
+        path: __dirname + "/../build",
         filename: "script.js"
     },
     module:{
         rules: [
             {
                 test: /\.css$/i,
-                use: ['style-loader', 'css-loader'],
+                use: ExtractTextPlugin.extract({
+                    fallback: "style-loader",
+                    use: ["css-loader"]
+                })
             },
         ]
     },
+    plugins: [
+        new ExtractTextPlugin({filename: 'style.css'})
+    ],
     devServer: {
         port: 9000,
         hot: true

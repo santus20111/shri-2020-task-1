@@ -1,6 +1,0 @@
-.image {
-    width: 100%;
-    border: solid 3px;
-    border-color: var(--theme-border-color);
-    background-color: var(--theme-background-color);
-}
