@@ -842,9 +842,9 @@
     margin-bottom: 0;
 }
 
-.payment__header {
+.payment__header .text{
     margin-top: 6px;
-    margin-bottom: 6px;
+    margin-bottom: 4px;
 }
 .warning {
     min-height: 335px;
@@ -865,7 +865,7 @@
 }
 
 .warning__content .text {
-    margin-top: 2px;
+    margin-top: -2px;
 }
 
 

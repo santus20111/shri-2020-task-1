@@ -10,7 +10,7 @@
     margin-bottom: 0;
 }
 
-.payment__header {
+.payment__header .text{
     margin-top: 6px;
-    margin-bottom: 6px;
+    margin-bottom: 4px;
 }
