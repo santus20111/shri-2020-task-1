@@ -1,34 +1,13 @@
-@import "../variable/sizes.css";
-
 .theme_size_default {
-    --line-height: var(--s_line_height);
-    --font-size: var(--s_font-size)
-}
+    --s_line_height: 21px;
+    --m_line_height: 25px;
+    --l_line_height: 28px;
+    --xl_line_height: 34px;
+    --xxl_line_height: 28px;
 
-.theme_size_s  {
-    --line-height: var(--s_line_height);
-    --font-size: var(--s_font-size)
-}
-
-.theme_size_m {
-    --line-height: var(--m_line_height);
-    --font-size: var(--m_font-size)
-}
-
-
-.theme_size_l {
-    --line-height:  var(--l_line_height);
-    --font-size: var(--l_font-size)
-}
-
-
-.theme_size_xl {
-    --line-height: var(--xl_line_height);
-    --font-size: var(--xl_font-size)
-}
-
-
-.theme_size_xxl {
-    --line-height: var(--xxl_line_height);
-    --font-size: var(--xxl_font-size)
+    --s_font-size: 8px;
+    --m_font-size: 10px;
+    --l_font-size: 11px;
+    --xl_font-size: 13px;
+    --xxl_font-size: 16px;
 }

@@ -1,4 +1,3 @@
-@import "../../variable/sizes.css";
 
 .text__word {
     height: var(--font-size);

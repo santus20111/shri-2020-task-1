@@ -1,5 +1,3 @@
-@import "../../variable/sizes.css";
-
 .section_indent-b_xxl {
     margin-bottom: var(--xxl_space);
 }

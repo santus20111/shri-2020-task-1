@@ -1,5 +1,13 @@
-@import "../variable/sizes.css";
-
-.theme_gap_small {
-    margin: var(--gap);
+@media (max-width: 1024px) {
+    .theme_gap_small {
+        --gap: var(--xl_space);
+    }
 }
+
+@media (min-width: 1024px) {
+    .theme_gap_small {
+        --gap: var(--xl_space);
+    }
+
+}
+

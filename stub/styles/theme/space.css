@@ -1,49 +1,13 @@
-@import "../variable/sizes.css";
-
 .theme_space_default {
-    padding: var(--xxxs_space);
-}
-
-.theme_space_xxxs {
-    padding: var(--xxxs_space);
-}
-
-.theme_space_xxs {
-    padding: var(--xxs_space);
-}
-
-.theme_space_xs {
-    padding: var(--xs_space);
-}
-
-.theme_space_s {
-    padding: var(--s_space);
-}
-
-.theme_space_m {
-    padding: var(--m_space);
-}
-
-.theme_space_l {
-    padding: var(--l_space);
-}
-
-.theme_space_xl {
-    padding: var(--xl_space);
-}
-
-.theme_space_xxl {
-    padding: var(--xxl_space);
-}
-
-.theme_space_xxxl {
-    padding: var(--xxxl_space);
-}
-
-.theme_space_xxxxl {
-    padding: var(--xxxxl_space);
-}
-
-.theme_space_xxxxxl {
-    padding: var(--xxxxxl_space);
+    --xxxs_space: 3px;
+    --xxs_space: 6px;
+    --xs_space: 9px;
+    --s_space: 15px;
+    --m_space: 18px;
+    --l_space: 24px;
+    --xl_space: 27px;
+    --xxl_space: 36px;
+    --xxxl_space: 45px;
+    --xxxxl_space: 51px;
+    --xxxxxl_space: 72px;
 }

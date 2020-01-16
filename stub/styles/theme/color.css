@@ -1,64 +1,41 @@
-@import "../variable/colors.css";
-
 .theme_color_project-default {
-    --theme-background-color: var(--default-background-color);
-    --theme-background-accent-color: var(--default-accent-background-color);
-    --theme-border-color: var(--default-border-color);
-    --theme-text-color: var(--default-text-color);
-    --theme-secondary-text-color: var(--default-secondary-text-color);
-    --theme-additional-text-color: var(--default-additional-text-color);
-    --theme-link-color: var(--default-link-color);
+    --theme-background-color: #FFFFFF;
+    --theme-background-accent-color: #ffcc00;
+    --theme-border-color: #000000;
+    --theme-text-color: #000000;
+    --theme-secondary-text-color: rgba(0, 0, 0, 0.6);
+    --theme-additional-text-color: rgba(0, 0, 0, 0.3);
+    --theme-link-color: #0077ff;
 
 }
-
-/*
-a.theme_color_project-default {
-    color: var(--default-link-color);
-}
-*/
 
 .theme_color_project-brand {
-    --theme-background-color: var(--brand-background-color);
-    --theme-background-accent-color: var(--brand-accent-background-color);
-    --theme-border-color: var(--brand-border-color);
-    --theme-text-color: var(--brand-text-color);
-    --theme-secondary-text-color: var(--brand-secondary-text-color);
-    --theme-additional-text-color: var(--brand-additional-text-color);
-    --theme-link-color: var(--brand-link-color);
+    --theme-background-color: #0077ff;
+    --theme-background-accent-color: #FFFFFF;
+    --theme-border-color: #FFFFFF;
+    --theme-text-color: #FFFFFF;
+    --theme-secondary-text-color: rgba(255, 255, 255, 0.6);
+    --theme-additional-text-color: rgba(255, 255, 255, 0.3);
+    --theme-link-color: #FFFFFF;
 }
-
-/*
-a.theme_color_project-brand {
-    color: var(--brand-link-color);
-}
-*/
 
 
 .theme_color_project-inverse {
-    --theme-background-color: var(--inverse-background-color);
-    --theme-background-accent-color: var(--inverse-accent-background-color);
-    --theme-border-color: var(--inverse-border-color);
-    --theme-text-color: var(--inverse-text-color);
-    --theme-secondary-text-color: var(--inverse-secondary-text-color);
-    --theme-additional-text-color: var(--inverse-additional-text-color);
-    --theme-link-color: var(--inverse-link-color);
+    --theme-background-color: #000000;
+    --theme-background-accent-color: #FFFFFF;
+    --theme-border-color: #FFFFFF;
+    --theme-text-color: #FFFFFF;
+    --theme-secondary-text-color: rgba(255, 255, 255, 0.6);
+    --theme-additional-text-color: rgba(255, 255, 255, 0.3);
+    --theme-link-color: #0077ff;
 }
-
-/*a.theme_color_project-inverse {
-    color: var(--inverse-link-color);
-}*/
-
 
 .theme_color_project-warning {
-    --theme-background-color: var(--warning-background-color);
-    --theme-background-accent-color: var(--warning-accent-background-color);
-    --theme-border-color: var(--warning-border-color);
-    --theme-text-color: var(--warning-text-color);
-    --theme-secondary-text-color: var(--warning-secondary-text-color);
-    --theme-additional-text-color: var(--warning-additional-text-color);
-    --theme-link-color: var(--warning-link-color);
+    --theme-background-color: #ff3333;
+    --theme-background-accent-color: #FFFFFF;
+    --theme-border-color: #ff3333;
+    --theme-text-color: #FFFFFF;
+    --theme-secondary-text-color: rgba(255, 255, 255, 0.6);
+    --theme-additional-text-color: rgba(255, 255, 255, 0.3);
+    --theme-link-color: #FFF;
 }
-
-/*a.theme_color_project-warning {
-    color: var(--warning-link-color);
-}*/

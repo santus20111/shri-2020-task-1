@@ -1,5 +1,3 @@
-@import "../../variable/sizes.css";
-
 .icon-plus__icon_indent-r_s {
     margin-right: var(--s_space);
 }

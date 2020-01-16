@@ -1,6 +1,4 @@
-@import "../variable/screens.css";
-
-@media (max-width: var(--tablet_size)) {
+@media (max-width: 1024px) {
     * {
         display: block;
     }
