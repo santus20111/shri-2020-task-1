@@ -16,6 +16,10 @@
     margin-top: 5px;
 }
 
+.warning__content .text {
+    margin-top: 2px;
+}
+
 
 /*
 .warning__content .text::before, .warning__content .text::after {

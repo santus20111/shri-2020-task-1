@@ -765,9 +765,8 @@
 }
 
 .text .text__word {
-    margin-top: calc(calc(var(--line-height) - var(--font-size)) / 2 - 2px);
-    margin-bottom: calc(calc(var(--line-height) - var(--font-size)) / 2 + 2px);
-    /*    margin-bottom: calc(var(--line-height) / 2 + 1px);*/
+    margin-top: calc(calc(var(--line-height) - var(--font-size)) / 2);
+    margin-bottom: calc(calc(var(--line-height) - var(--font-size)) / 2);
 }
 
 .text_align_center {
@@ -844,7 +843,8 @@
 }
 
 .payment__header {
-    margin-top: 4px;
+    margin-top: 6px;
+    margin-bottom: 6px;
 }
 .warning {
     min-height: 335px;
@@ -862,6 +862,10 @@
 
 .warning__button-wrapper {
     margin-top: 5px;
+}
+
+.warning__content .text {
+    margin-top: 2px;
 }
 
 
