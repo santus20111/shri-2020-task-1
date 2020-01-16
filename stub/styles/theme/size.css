@@ -1,24 +1,34 @@
 @import "../variable/sizes.css";
 
-.theme_size_s .text {
-    height: var(--s_line_height);
+.theme_size_default {
+    --line-height: var(--s_line_height);
+    --font-size: var(--s_font-size)
 }
 
-.theme_size_m .text{
-    height: var(--m_line_height);
+.theme_size_s  {
+    --line-height: var(--s_line_height);
+    --font-size: var(--s_font-size)
 }
 
-
-.theme_size_l .text{
-    height:  var(--l_line_height);
-}
-
-
-.theme_size_xl .text{
-    height: var(--xl_line_height);
+.theme_size_m {
+    --line-height: var(--m_line_height);
+    --font-size: var(--m_font-size)
 }
 
 
-.theme_size_xxl .text{
-    height: var(--xxl_line_height);
+.theme_size_l {
+    --line-height:  var(--l_line_height);
+    --font-size: var(--l_font-size)
+}
+
+
+.theme_size_xl {
+    --line-height: var(--xl_line_height);
+    --font-size: var(--xl_font-size)
+}
+
+
+.theme_size_xxl {
+    --line-height: var(--xxl_line_height);
+    --font-size: var(--xxl_font-size)
 }

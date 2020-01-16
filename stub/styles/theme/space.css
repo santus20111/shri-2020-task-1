@@ -1,5 +1,9 @@
 @import "../variable/sizes.css";
 
+.theme_space_default {
+    padding: var(--xxxs_space);
+}
+
 .theme_space_xxxs {
     padding: var(--xxxs_space);
 }

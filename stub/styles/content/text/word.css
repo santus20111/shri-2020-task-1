@@ -1,5 +1,9 @@
 @import "../../variable/sizes.css";
 
+.text__word {
+    height: var(--font-size);
+}
+
 .text_size_s .text__word_width_s{
     width: 20px;
 }
