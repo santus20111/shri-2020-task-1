@@ -12,6 +12,10 @@
     margin-bottom: var(--m_space);
 }
 
+.warning__button-wrapper {
+    margin-top: 5px;
+}
+
 
 /*
 .warning__content .text::before, .warning__content .text::after {
