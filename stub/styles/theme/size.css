@@ -1,29 +1,24 @@
 @import "../variable/sizes.css";
 
-.theme_size_s {
-    margin-bottom: var(--s_line_height);
-    height: var(--s_font-size);
+.theme_size_s .text {
+    height: var(--s_line_height);
 }
 
-.theme_size_m {
-    margin-bottom: var(--m_line_height);
-    height: var(--m_font-size);
-}
-
-
-.theme_size_l {
-    margin-bottom: var(--l_line_height);
-    height: var(--l_font-size);
+.theme_size_m .text{
+    height: var(--m_line_height);
 }
 
 
-.theme_size_xl {
-    margin-bottom: var(--xl_line_height);
-    height: var(--xl_font-size);
+.theme_size_l .text{
+    height:  var(--l_line_height);
 }
 
 
-.theme_size_xxl {
-    margin-bottom: var(--xxl_line_height);
-    height: var(--xxl_font-size);
+.theme_size_xl .text{
+    height: var(--xl_line_height);
+}
+
+
+.theme_size_xxl .text{
+    height: var(--xxl_line_height);
 }

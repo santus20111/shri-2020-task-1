@@ -4,8 +4,13 @@
     display: flex;
 }
 
+
 .form__item_border_bottom {
     border-bottom: solid;
+}
+
+.form .form__item.form__item_border_bottom:last-child {
+    border-bottom: none;
 }
 
 .form__item_distribute_between {
