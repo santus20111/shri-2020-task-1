@@ -1,0 +1,22 @@
+.product {
+    min-height: 300px;
+    border-width: 3px;
+}
+
+
+.theme_color_project-inverse .product{
+    border-color: #000;
+}
+
+.product .product__image {
+    height: 160px;
+}
+
+.product .product__footer {
+    display: flex;
+    flex-direction: column;
+}
+
+.product .product__footer .text_size_m {
+    margin-bottom: var(--m_line_height);
+}

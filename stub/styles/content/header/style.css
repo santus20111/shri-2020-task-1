@@ -1,0 +1,19 @@
+
+.header {
+    margin: var(--xxxl_space) var(--gap);
+}
+
+.header__logo {
+    width: 179px;
+    height: 34px;
+    background-color: var(--theme-text-color);
+}
+
+.header__content {
+    margin-left: auto;
+    margin-right: auto;
+
+    max-width: 1280px;
+    display: flex;
+    justify-content: space-between;
+}
