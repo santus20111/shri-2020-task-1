@@ -6,8 +6,8 @@
 }
 
 .text .text__word {
-    margin-top: calc(calc(var(--line-height) - var(--font-size)) / 2 + 1px);
-    margin-bottom: calc(calc(var(--line-height) - var(--font-size)) / 2 - 1px);
+    margin-top: calc(calc(var(--line-height) - var(--font-size)) / 2 + 2px);
+    margin-bottom: calc(calc(var(--line-height) - var(--font-size)) / 2 - 2px);
 }
 
 .text_align_center {
