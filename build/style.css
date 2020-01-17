@@ -815,8 +815,8 @@
     --font-size: var(--xxl_font-size);
 }
 
-.text_type_h1 .text__word{
-    margin: 18px 0 35px;
+.text_type_h1{
+    margin: 18px 0 19px;
 }
 
 .text_type_h2 {
