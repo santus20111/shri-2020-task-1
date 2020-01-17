@@ -6,7 +6,9 @@
     display: flex;
     align-items: center;
 
+    /*
     border-color: var(--theme-border-color);
+    */
     cursor: pointer;
     padding-right: 2px;
     padding-left: 2px;

@@ -1,6 +1,10 @@
 .input {
-    border: solid 3px;
+    border-width: 3px;
+    border-style: solid;
+    /*
     border-color: var(--theme-border-color);
+    */
+
     width: 100%;
 }
 

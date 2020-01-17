@@ -1,6 +1,8 @@
 .list__item {
     display: flex;
+    /*
     border-color: var(--theme-border-color);
+    */
 }
 
 .list__item_border_bottom {

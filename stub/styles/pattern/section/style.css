@@ -16,3 +16,7 @@
     padding-bottom: var(--xxxxl_space);
 }
 
+.section {
+    background-color: var(--theme-background-color);
+}
+

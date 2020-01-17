@@ -1,7 +1,3 @@
-.layout__container {
-    background-color: var(--theme-background-color);
-}
-
 .layout__container_align_center {
     margin-left: auto;
     margin-right: auto;
