@@ -1,6 +1,9 @@
 .image {
     width: 100%;
+    height: 100%;
     border: solid 3px;
     border-color: var(--theme-border-color);
-    background-color: var(--theme-background-color);
+    background: var(--theme-background-color) var(--theme-background-image);
+    background-repeat: no-repeat;
+    background-position: center;
 }

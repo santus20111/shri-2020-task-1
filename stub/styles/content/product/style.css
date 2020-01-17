@@ -12,7 +12,19 @@
     height: 160px;
 }
 
-.product .product__footer {
+.product__footer {
     display: flex;
     flex-direction: column;
+}
+
+.product__footer {
+    margin-top: 16px;
+}
+
+.product__image {
+    width: 100%;
+}
+
+.product__image .image {
+    border: none;
 }

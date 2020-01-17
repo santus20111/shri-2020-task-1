@@ -7,14 +7,12 @@
     flex-direction: column;
 }
 
-.cover .cover__preview .image{
+.cover__preview {
+    margin-bottom: var(--l_space);
     height: 180px;
 }
 
-.cover .cover__preview {
-    margin-bottom: var(--l_space);
-}
-
 .cover .cover__info .text_size_xxl:nth-child(2) {
-    margin-bottom: var(--xxl_line_height);
+    margin-bottom: 10px;
+    margin-top: 2px;
 }
