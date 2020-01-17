@@ -1,7 +1,7 @@
 
-.event {
-    min-height: 480px;
-}
+/*.event {
+    //min-height: 480px;
+}*/
 
 .event__content {
     display: flex;
@@ -22,6 +22,13 @@
     margin-bottom: var(--s_space);
 }
 
+.event__description {
+    margin-top: 7px;
+}
+
+.event__footer {
+    margin-top: -30px;
+}
 /*.event__description .text {
     display: flex;
     flex-direction: row;
