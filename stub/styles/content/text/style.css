@@ -40,8 +40,12 @@
     --font-size: var(--xxl_font-size);
 }
 
-.text_type_h1 {
+.text_type_h1 .text__word{
+    margin-top: 18px;
+    margin-bottom: 24px;
+    /*
     margin: 18px 0 24px;
+    */
 }
 
 .text_type_h2 {
