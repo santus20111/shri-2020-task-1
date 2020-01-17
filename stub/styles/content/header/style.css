@@ -1,6 +1,6 @@
 
 .header {
-    margin: var(--xxxl_space) var(--gap);
+    padding: var(--xxxl_space) var(--gap);
 }
 
 .header__logo {
