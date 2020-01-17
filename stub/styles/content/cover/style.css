@@ -2,7 +2,7 @@
     min-height: 472px;
 }
 
-.cover .cover__info {
+.cover__info {
     display: flex;
     flex-direction: column;
 }
@@ -12,7 +12,7 @@
     height: 180px;
 }
 
-.cover .cover__info .text_size_xxl:nth-child(2) {
+.cover__info .text:nth-child(2) {
     margin-bottom: 10px;
     margin-top: 2px;
 }

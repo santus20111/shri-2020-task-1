@@ -3,12 +3,7 @@
     border-width: 3px;
 }
 
-
-.theme_color_project-inverse .product{
-    border-color: #000;
-}
-
-.product .product__image {
+.product__image {
     height: 160px;
 }
 

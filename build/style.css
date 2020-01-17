@@ -909,11 +909,6 @@
     border-width: 3px;
 }
 
-
-.theme_color_project-inverse .product{
-    border-color: #000;
-}
-
 .product .product__image {
     height: 160px;
 }
@@ -990,7 +985,7 @@
     min-height: 472px;
 }
 
-.cover .cover__info {
+.cover__info {
     display: flex;
     flex-direction: column;
 }
@@ -1000,8 +995,9 @@
     height: 180px;
 }
 
-.cover .cover__info .text_size_xxl:nth-child(2) {
+.cover__info .text:nth-child(2) {
     margin-bottom: 10px;
+    margin-top: 2px;
 }
 
 /*.event {
