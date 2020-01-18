@@ -18,17 +18,18 @@
 }
 
 .event__title {
-    margin-top: 2px;
     margin-bottom: var(--s_space);
 }
 
+/*
 .event__description {
     margin-top: 7px;
 }
+*/
 
-.event__footer {
+/*.event__footer {
     margin-top: -30px;
-}
+}*/
 /*.event__description .text {
     display: flex;
     flex-direction: row;

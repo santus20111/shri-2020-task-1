@@ -12,6 +12,7 @@
     margin-bottom: var(--m_space);
 }
 
+/*
 .warning__content .text {
     margin-top: -2px;
 }
@@ -19,9 +20,10 @@
 .warning__button-wrapper {
     margin-top: 5px;
 }
+*/
 
 @media (max-width: 1024px) {
-    .warning__button-wrapper {
+/*    .warning__button-wrapper {
         margin-top: 21px;
-    }
+    }*/
 }
