@@ -108,11 +108,18 @@
         grid-column: span 8;
     }
 }
-@media (min-width: 1024px) {
-    .grid {
-        display: grid;
-    }
+.grid {
+    display: grid;
+}
 
+@media (max-width: 1024px) {
+    .grid {
+        grid-template-columns: 1fr;
+        grid-row-gap: 7px;
+    }
+}
+
+@media (min-width: 1024px) {
     .grid_m-columns_12 {
         grid-template-columns: repeat(12, 1fr);
     }
@@ -893,7 +900,7 @@
     }
 
     .warning {
-        margin-bottom: 15px;
+        margin-bottom: 8px;
     }
 }
 .product {
@@ -998,7 +1005,7 @@
 
 @media (max-width: 1024px) {
     .cover {
-        margin-bottom: 15px;
+        margin-bottom: 8px;
     }
 }
 
