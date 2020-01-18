@@ -50,3 +50,8 @@
 .history .list__item:last-child {
     border-bottom: none;
 }
+
+.history__transaction {
+    display: flex;
+    flex-direction: column;
+}

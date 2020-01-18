@@ -18,7 +18,7 @@
 }
 
 @media (max-width: 1024px) {
-/*    .warning__button-wrapper {
-        margin-top: 21px;
-    }*/
+    .warning__button-wrapper {
+        margin-top: 19px;
+    }
 }

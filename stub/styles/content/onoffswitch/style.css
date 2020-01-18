@@ -9,14 +9,12 @@
     /*
     border-color: var(--theme-border-color);
     */
-    cursor: pointer;
     padding-right: 2px;
     padding-left: 2px;
 }
 
 .onoffswitch_checked {
     justify-content: flex-end;
-    cursor: pointer;
 }
 
 .onoffswitch__button {

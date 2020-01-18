@@ -71,3 +71,7 @@
 .text_view_link .text__word {
     background-color: var(--theme-link-color);
 }
+
+.text + .grid {
+    margin-top: 45px;
+}

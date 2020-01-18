@@ -846,6 +846,10 @@
 .text_view_link .text__word {
     background-color: var(--theme-link-color);
 }
+
+.text + .grid {
+    margin-top: 45px;
+}
 .payment__content {
     flex-direction: column;
 }
@@ -884,9 +888,9 @@
 }
 
 @media (max-width: 1024px) {
-/*    .warning__button-wrapper {
-        margin-top: 21px;
-    }*/
+    .warning__button-wrapper {
+        margin-top: 19px;
+    }
 }
 .product {
     min-height: 300px;
@@ -964,6 +968,11 @@
 
 .history .list__item:last-child {
     border-bottom: none;
+}
+
+.history__transaction {
+    display: flex;
+    flex-direction: column;
 }
 .cover {
     min-height: 472px;
@@ -1048,14 +1057,12 @@
     /*
     border-color: var(--theme-border-color);
     */
-    cursor: pointer;
     padding-right: 2px;
     padding-left: 2px;
 }
 
 .onoffswitch_checked {
     justify-content: flex-end;
-    cursor: pointer;
 }
 
 .onoffswitch__button {
