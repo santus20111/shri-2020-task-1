@@ -984,6 +984,9 @@
     height: 180px;
 }
 
+.cover__footer {
+    margin-top: 6px;
+}
 /*
 .cover__info .text:nth-child(2) {
     margin-bottom: 10px;
