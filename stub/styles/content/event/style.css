@@ -24,3 +24,9 @@
 .event__footer {
     padding-top: 8px;
 }
+
+@media (max-width: 1024px) {
+    .event__footer {
+        padding-top: 36px;
+    }
+}
