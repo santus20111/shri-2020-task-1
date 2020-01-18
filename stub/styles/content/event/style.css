@@ -21,51 +21,6 @@
     margin-bottom: var(--s_space);
 }
 
-/*
-.event__description {
-    margin-top: 7px;
+.event__footer {
+    padding-top: 8px;
 }
-*/
-
-/*.event__footer {
-    margin-top: -30px;
-}*/
-/*.event__description .text {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-.event__description .text::before, .event__description .text::after {
-    content: '';
-    width: 100%;
-    order: 1;
-}
-
-.event__description .text .text__word:nth-child(4) {
-    margin-top: var(--l_space);
-    margin-bottom: var(--l_space);
-}
-
-.event__description .text .text__word:nth-child(5) {
-    margin-top: var(--l_space);
-    margin-bottom: var(--l_space);
-}
-
-.event__description .text .text__word:nth-child(6) {
-    margin-top: var(--l_space);
-    margin-bottom: var(--l_space);
-}
-
-.event__description .text .text__word:nth-child(n + 4) {
-    order: 1;
-}
-
-.event__description .text .text__word:nth-child(n + 7) {
-    order: 2;
-}
-
-.event__footer .text {
-    display: flex;
-}*/
