@@ -21,4 +21,8 @@
     .warning__button-wrapper {
         margin-top: 19px;
     }
+
+    .warning {
+        margin-bottom: 15px;
+    }
 }

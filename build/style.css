@@ -891,6 +891,10 @@
     .warning__button-wrapper {
         margin-top: 19px;
     }
+
+    .warning {
+        margin-bottom: 15px;
+    }
 }
 .product {
     min-height: 300px;
@@ -991,16 +995,12 @@
 .cover__footer {
     margin-top: 6px;
 }
-/*
-.cover__info .text:nth-child(2) {
-    margin-bottom: 10px;
-    margin-top: 2px;
-}
 
-.cover__footer {
-    margin-top: 14px;
+@media (max-width: 1024px) {
+    .cover {
+        margin-bottom: 15px;
+    }
 }
-*/
 
 /*.event {
     //min-height: 480px;
